@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import styles from "@/styles/Home.module.css";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -15,100 +15,129 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <div className={styles.description}>
-          <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>src/pages/index.js</code>
-          </p>
+        <section>
+          <h1>Julien Leske</h1>
+          <span>UX-Design | Full Stack Web Developer</span>
+        </section>
+        <section>
+          <h2>Projects</h2>
           <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
+            <article>
+              <h3>Communio - Donations made Convenient</h3>
+              <div className="tags">
+                <span>Ownership</span>
+                <span>Development</span>
+                <span>UX</span>
+              </div>
+              <p>
+                Ever wondered why everything in your life is digital, but
+                helping others is not? How can you help feed the people in your
+                neighbourhood with just one click?
+              </p>
+            </article>
+            <article>
+              <h3>Digital Product-Ecosystem for German State Agency</h3>
+              <div className="tags">
+                <span>UX</span>
+                <span>Concept</span>
+              </div>
+              <p>
+                A digital ecosystem for German citizens to apply for social
+                benefits and manage everything around these topics digitally.
+              </p>
+            </article>
+            <article>
+              <h3>ArtSpot - Mobile WebApp to like and Comment Artwork</h3>
+              <div className="tags">
+                <span>UX</span>
+                <span>Concept</span>
+                <span>Development</span>
+              </div>
+              <p>
+                Find, like and comment on your favorite artworks through a
+                modern and attractive opensource WebApp
+              </p>
+            </article>
+
+            <article>
+              <h3>
+                Digital Touchpoint optimization of Customer-Self-Service
+                Platform
+              </h3>
+              <div className="tags">
+                <span>UX</span>
+              </div>
+              <p>
+                You have a Web-Service but your clients are not using it? Well
+                maybeeee you forgot to pose the right questions and design an
+                experience around your service.
+              </p>
+            </article>
+
+            <article>
+              <h3>MVP: Self-Service App for medical Laboratories</h3>
+              <div className="tags">
+                <span>UX</span>
+                <span>Product Ownership</span>
+              </div>
+              <p>
+                Even small technical errors can stop medical laboratories to
+                work for hours. Technicians often arrive hours later with no
+                exact briefing for issues that coudl have been fixed by
+                personnel on-site. This can be optimzed!
+              </p>
+            </article>
           </div>
-        </div>
-
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-        </div>
-
-        <div className={styles.grid}>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Docs <span>-&gt;</span>
-            </h2>
+        </section>
+        <section>
+          <h3>About</h3>
+          <article>
             <p>
-              Find in-depth information about Next.js features and&nbsp;API.
+              Julien is a Product Engineer and Product-Innovation Consultant
+              combining agile product development, User Experience Design, and
+              innovation in enterprise context. Julien helps clients build
+              digital products & services with relevance - realized through
+              full-stack development powered by user-centered methodology. From
+              2019 - 2023, Julien worked at KPMG and supported numerous software
+              projects for mid-market, public and publicly traded companies with
+              his expertise in design and development. Previously, he worked 1.5
+              years in technology-focused consulting (Infosys Consulting) to
+              drive & support topics such as user experience, the use of new
+              technologies, and interaction with startups. After studying
+              psychology, he did research on algorithms & user experience in the
+              automotive sector and gained experience as a UX designer and
+              product owner (agile product development) in a Berlin-based
+              digital agency from 2016.
             </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Learn <span>-&gt;</span>
-            </h2>
+          </article>
+          <article>
+            <h3>Ideate</h3>
+            <p>Design Thinking, Google Sprint & Lean UX Facilitator</p>
+          </article>
+          <article>
+            <h3>Design</h3>
             <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
+              Scaled User Research, User & Usability Testing, Personas, Customer
+              Journeys, Service Blueprints, Prototyping, MVPs, Design Systems,
+              Usability Norms, OZG & BFSG compliance
             </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Templates <span>-&gt;</span>
-            </h2>
+          </article>
+          <article>
+            <h3>Develop</h3>
             <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
+              React, Mongo, Express, Node, HTML, CSS, JS, Git, Bootstrap,
+              Tailwind, Python, Webscraping
             </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Deploy <span>-&gt;</span>
-            </h2>
+          </article>
+          <article>
+            <h3>Manage</h3>
             <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
+              Certified SAFe 5 Agilist, Certified SCRUM PO & SCRUM Master,
+              Trained in GDPR, 🇩🇪 🇬🇧{" "}
             </p>
-          </a>
-        </div>
+          </article>
+        </section>
       </main>
     </>
-  )
+  );
 }
