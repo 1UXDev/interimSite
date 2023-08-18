@@ -20,12 +20,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <nav>
-        <span>Home</span>
-        <span>Prototype</span>
-        <span>MVP</span>
-        <span>CV</span>
-      </nav> */}
+      <nav>
+        <a href="https://www.linkedin.com/in/julien-leske/">
+          <img src="/linkedinLogo.png" width="36px"></img>
+        </a>
+
+        <a href="https://github.com/mntzd">
+          <img src="githubLogo.svg" width="36px"></img>
+        </a>
+      </nav>
       <main className={`${styles.main} ${inter.className}`}>
         <section className={`${styles.hero}`}>
           <div>

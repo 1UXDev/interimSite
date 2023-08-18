@@ -26,7 +26,7 @@
 }
 
 .main section:not(.hero) {
-  background: lightgrey;
+  background: rgba(0, 0, 0, 0.08);
   display: flex;
   flex-flow: column wrap;
   gap: 24px;
