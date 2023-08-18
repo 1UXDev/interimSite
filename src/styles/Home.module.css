@@ -1,22 +1,37 @@
 .hero {
   width: 100%;
-  height: 80vh;
+  padding: 12%;
+  height: 85vh;
   display: flex;
   flex-flow: column wrap;
   gap: 12px;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   background-color: var(--color-secondary);
+  background-image: url("/julien4.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero h1 {
+  max-width: 600px;
+  min-width: 250px;
+  padding-bottom: 60px;
+}
+
+.hero p {
+  font-weight: bold;
 }
 
 .main section:not(.hero) {
   background: lightgrey;
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
   gap: 24px;
-  align-items: center;
-  padding: 24px 48px;
+  align-items: left;
+  padding: 60px 12%;
 }
 
 /* .main {

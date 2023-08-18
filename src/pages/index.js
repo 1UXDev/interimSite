@@ -1,9 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter } from "next/font/google";
+import { Roboto_Flex, Inter, Montserrat } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const robotoflex = Roboto_Flex({ subsets: ["latin"] });
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["400"],
+  style: ["normal", "italic"],
+});
 
 export default function Home() {
   return (
@@ -14,22 +20,84 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      {/* <nav>
+        <span>Home</span>
+        <span>Prototype</span>
+        <span>MVP</span>
+        <span>CV</span>
+      </nav> */}
       <main className={`${styles.main} ${inter.className}`}>
         <section className={`${styles.hero}`}>
-          <h1>Transform Ideas to Impact, together</h1>
-          <span>Julien Leske | UX-Design | Full Stack Web Developer</span>
-        </section>
-        <section className={`${styles.section}`}>
-          <h2>6 weeks for a Prototype, 6 Months to an MVP</h2>
-          <img alt="In 6 weeks to a validated and interactive Prototype through agile methodology"></img>
           <div>
-            <article>Ideate</article>
-            <article>Research</article>
-            <article>Design</article>
-            <article>Develop</article>
-            <article>Deliver</article>
+            <h1 className={`${montserrat.className}`}>
+              Transform Ideas into Impact
+            </h1>
+            <p>Julien Leske</p>
+            <span>Senior UX-Designer | Full Stack Web Developer</span>
           </div>
         </section>
+        <section className={`${styles.section}`}>
+          <h2>Challenge to Concept</h2>
+          <img alt="In 6 weeks to a validated and interactive Prototype through agile methodology"></img>
+          <article>
+            <h3>Research</h3>
+            <p>
+              User & Stakeholder Interviews, Quantitative Data Analysis, Market
+              Research, Experience Analysis of status quo Products & Services
+            </p>
+          </article>
+          <article>
+            <h3>Ideate</h3>
+            <p>Design Thinking, Google Sprint & Lean UX Facilitation</p>
+          </article>
+          <article>
+            <h3>Align</h3>
+            <p>
+              Stakeholderfeedback, Concept Creation, Personas, Customer Journeys
+              & Service Blueprints
+            </p>
+          </article>
+        </section>
+
+        <section className={`${styles.section}`}>
+          <h2>Concept to Prototype</h2>
+          <article>
+            <h3>Prototype</h3>
+            <p>Wireframing, Prototyping, MVPs</p>
+          </article>
+          <article>
+            <h3>Test & Iterate</h3>
+            <p>Scaled User Research, User & Usability Testing</p>
+          </article>
+          <article>
+            <h3>Plan</h3>
+            <p>
+              Backlog Creation, Requirements Engineering, Planning Meeting with
+              Stakeholders
+            </p>
+          </article>
+        </section>
+
+        <section className={`${styles.section}`}>
+          <h2>Prototype to Product</h2>
+          <article>
+            <h3>Build</h3>
+            <p>
+              Programming, Design Systems, Usability Norms, OZG & BFSG
+              compliance, React, Mongo, Express, Node, HTML, CSS, JS, Git,
+              Bootstrap, Tailwind, Python, Webscraping
+            </p>
+          </article>
+          <article>
+            <h3>Roll-Out</h3>
+            <p>...</p>
+          </article>
+          <article>
+            <h3>Operate & Manage</h3>
+            <p>Continuous Performance Analysis, Updates & Improvements</p>
+          </article>
+        </section>
+
         <section>
           <h2>Projects</h2>
           <div>
@@ -101,48 +169,24 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <h3>About</h3>
+          <h2>About</h2>
           <article>
             <p>
               Julien is a Product Engineer and Product-Innovation Consultant
               combining agile product development, User Experience Design, and
-              innovation in enterprise context. Julien helps clients build
-              digital products & services with relevance - realized through
-              full-stack development powered by user-centered methodology. From
-              2019 - 2023, Julien worked at KPMG and supported numerous software
+              corporate innovation. Julien helps clients build digital products
+              & services with relevance - realized through full-stack
+              webdevelopment powered by user-centered methodology. From 2019 -
+              2023, Julien worked at KPMG and supported numerous software
               projects for mid-market, public and publicly traded companies with
               his expertise in design and development. Previously, he worked 1.5
-              years in technology-focused consulting (Infosys Consulting) to
+              years in technology-focused consulting at Infosys Consulting, to
               drive & support topics such as user experience, the use of new
-              technologies, and interaction with startups. After studying
+              technologies, and collaboration with startups. After studying
               psychology, he did research on algorithms & user experience in the
               automotive sector and gained experience as a UX designer and
               product owner (agile product development) in a Berlin-based
-              digital agency from 2016.
-            </p>
-          </article>
-          <article>
-            <h3>Ideate</h3>
-            <p>Design Thinking, Google Sprint & Lean UX Facilitator</p>
-          </article>
-          <article>
-            <h3>Design</h3>
-            <p>
-              Scaled User Research, User & Usability Testing, Personas, Customer
-              Journeys, Service Blueprints, Prototyping, MVPs, Design Systems,
-              Usability Norms, OZG & BFSG compliance
-            </p>
-          </article>
-          <article>
-            <h3>Develop</h3>
-            <p>
-              React, Mongo, Express, Node, HTML, CSS, JS, Git, Bootstrap,
-              Tailwind, Python, Webscraping
-            </p>
-          </article>
-          <article>
-            <h3>Manage</h3>
-            <p>
+              digital agency. <br></br>
               Certified SAFe 5 Agilist, Certified SCRUM PO & SCRUM Master,
               Trained in GDPR, 🇩🇪 🇬🇧
             </p>
