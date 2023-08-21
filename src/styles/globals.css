@@ -5,7 +5,8 @@
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
-  --color-secondary: lightpink;
+  --color-primary: #43b4d8;
+  --color-secondary: #8156de;
 
   /*
   --foreground-rgb: 0, 0, 0;
