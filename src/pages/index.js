@@ -146,12 +146,12 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section className={`${styles.projects}`}>
           <h2>Projects</h2>
           <div>
             <article>
               <h3>Communio - Donations made Convenient</h3>
-              <div className="tags">
+              <div className={`${styles.tags}`}>
                 <span>Ownership</span>
                 <span>Development</span>
                 <span>UX</span>
@@ -164,7 +164,7 @@ export default function Home() {
             </article>
             <article>
               <h3>Digital Product-Ecosystem for German State Agency</h3>
-              <div className="tags">
+              <div className={`${styles.tags}`}>
                 <span>UX</span>
                 <span>Concept</span>
               </div>
@@ -175,7 +175,7 @@ export default function Home() {
             </article>
             <article>
               <h3>ArtSpot - Mobile WebApp to like and Comment Artwork</h3>
-              <div className="tags">
+              <div className={`${styles.tags}`}>
                 <span>UX</span>
                 <span>Concept</span>
                 <span>Development</span>
@@ -191,7 +191,7 @@ export default function Home() {
                 Digital Touchpoint optimization of Customer-Self-Service
                 Platform
               </h3>
-              <div className="tags">
+              <div className={`${styles.tags}`}>
                 <span>UX</span>
               </div>
               <p>
@@ -203,7 +203,7 @@ export default function Home() {
 
             <article>
               <h3>MVP: Self-Service App for medical Laboratories</h3>
-              <div className="tags">
+              <div className={`${styles.tags}`}>
                 <span>UX</span>
                 <span>Product Ownership</span>
               </div>
@@ -216,7 +216,7 @@ export default function Home() {
             </article>
           </div>
         </section>
-        <section>
+        <section className={`${styles.about}`}>
           <h2>About</h2>
           <article>
             <p>
@@ -234,10 +234,14 @@ export default function Home() {
               psychology, he did research on algorithms & user experience in the
               automotive sector and gained experience as a UX designer and
               product owner (agile product development) in a Berlin-based
-              digital agency. <br></br>
-              Certified SAFe 5 Agilist, Certified SCRUM PO & SCRUM Master,
-              Trained in GDPR, 🇩🇪 🇬🇧
+              digital agency.
             </p>
+            <ul>
+              <li>Certified SAFe 5 Agilist</li>
+              <li>Certified SCRUM Product Owner</li>
+              <li>Trained in GDPR, Experienced Scrum Master</li>
+              <li>🇩🇪 🇬🇧 </li>
+            </ul>
           </article>
         </section>
       </main>

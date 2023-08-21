@@ -37,26 +37,44 @@
 .main .articleContainer {
   display: flex;
   flex-direction: row;
-  flex-wrap: unset;
   gap: 42px;
-  width: unset;
-  max-width: unset;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  list-style-type: none;
+  margin-right: -12px;
+  padding-right: 12px;
 }
 .main article {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
-  gap: 12px;
+  gap: 6px 12px;
+  flex: 0 0 88%;
+  max-width: 800px;
+  background-color: white;
+  padding: 24px;
+  box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.12);
+}
+
+.main article p {
   padding-bottom: 24px;
 }
+
 .main article span {
   padding: 4px 12px;
   background-color: var(--color-primary);
   border-radius: 24px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.8em;
 }
 .main article span:hover {
   background-color: var(--color-secondary);
   transition: all 1s ease-in-out;
+}
+
+.projects {
+  background-color: white;
 }
 
 /* .main {

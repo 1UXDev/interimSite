@@ -8,9 +8,8 @@
   --color-primary: #43b4d8;
   --color-secondary: #8156de;
 
-  /*
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 100, 120, 200;
+  --background-start-rgb: 200, 220, 255;
   --background-end-rgb: 230, 240, 250;
 
   --primary-glow: conic-gradient(
@@ -25,7 +24,7 @@
     rgba(255, 255, 255, 1),
     rgba(255, 255, 255, 0)
   );
-*/
+
   --tile-start-rgb: 239, 245, 249;
   --tile-end-rgb: 228, 232, 233;
   --tile-border: conic-gradient(
