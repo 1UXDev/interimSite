@@ -41,102 +41,109 @@ export default function Home() {
         </section>
         <section className={`${styles.section}`}>
           <h2>From Challenge to Concept in 2 weeks</h2>
-          <article>
-            <h3>Research</h3>
-            <p>
-              Quantify Market Opportunities through Qualitative and Quantitative
-              Research to target the needs of relevant user segments
-            </p>
-            <span>User & Stakeholder Interviews</span>{" "}
-            <span>Quantitative Data Analysis</span>{" "}
-            <span>Market & Competitor Research</span>{" "}
-            <span>Experience Analysis</span>
-          </article>
-          <article>
-            <h3>Ideate</h3>
-            <p>
-              Get your stakeholders on board and find creative solutions to a
-              common problem understandingä
-            </p>
-            <span>Design Thinking</span>
-            <span>Google Sprint</span>
-            <span>Lean UX</span>
-          </article>
-          <article>
-            <h3>Align</h3>
-            <p>
-              Create a detailed concept describing Challenge, Quantified Market
-              Opportunity and Solutionscenarios to align with important
-              stakeholders
-            </p>
-            <span>Alignment Workshop</span>{" "}
-            <span>Personas & Customer Journeys</span>{" "}
-            <span>Service Blueprint</span>
-          </article>
+          <div className="articleContainer">
+            <article>
+              <h3>Research</h3>
+              <p>
+                Quantify Market Opportunities through Qualitative and
+                Quantitative Research to target the needs of relevant user
+                segments
+              </p>
+              <span>User & Stakeholder Interviews</span>{" "}
+              <span>Quantitative Data Analysis</span>{" "}
+              <span>Market & Competitor Research</span>{" "}
+              <span>Experience Analysis</span>
+            </article>
+            <article>
+              <h3>Ideate</h3>
+              <p>
+                Get your stakeholders on board and find creative solutions to a
+                common problem understandingä
+              </p>
+              <span>Design Thinking</span>
+              <span>Google Sprint</span>
+              <span>Lean UX</span>
+            </article>
+            <article>
+              <h3>Align</h3>
+              <p>
+                Create a detailed concept describing Challenge, Quantified
+                Market Opportunity and Solutionscenarios to align with important
+                stakeholders
+              </p>
+              <span>Alignment Workshop</span>{" "}
+              <span>Personas & Customer Journeys</span>{" "}
+              <span>Service Blueprint</span>
+            </article>
+          </div>
         </section>
 
         <section className={`${styles.section}`}>
           <h2>Concept to Prototype in 4 weeks</h2>
-          <article>
-            <h3>Prototype</h3>
-            <p>
-              Create interactive proof of concepts in a few days to excite
-              stakeholders for your ideas, A/B Test and gather market feedback
-              efficiently
-            </p>
-            <span>Wireframing</span>
-            <span>Prototyping</span>
-            <span>MVPs</span>
-          </article>
-          <article>
-            <h3>Test & Iterate</h3>
-            <p>
-              Validate & prioritize solution ideas and their features to
-              coordinate time and ressource investments where value creation is
-              maximized
-            </p>
-            <span>Scaled User Research</span>
-            <span>Usability Testing</span>
-            <span>A/B Testing</span>
-          </article>
-          <article>
-            <h3>Plan</h3>
-            <p>
-              Ramp-up the development process or hand-over to your
-              development-team. Slice solution into releases
-            </p>
-            <span>Requirement Engineering</span>
-            <span>Backlog Planning</span>
-            <span>Alignment with Stakeholders</span>
-          </article>
+          <div className="articleContainer">
+            <article>
+              <h3>Prototype</h3>
+              <p>
+                Create interactive proof of concepts in a few days to excite
+                stakeholders for your ideas, A/B Test and gather market feedback
+                efficiently
+              </p>
+              <span>Wireframing</span>
+              <span>Prototyping</span>
+              <span>MVPs</span>
+            </article>
+            <article>
+              <h3>Test & Iterate</h3>
+              <p>
+                Validate & prioritize solution ideas and their features to
+                coordinate time and ressource investments where value creation
+                is maximized
+              </p>
+              <span>Scaled User Research</span>
+              <span>Usability Testing</span>
+              <span>A/B Testing</span>
+            </article>
+            <article>
+              <h3>Plan</h3>
+              <p>
+                Ramp-up the development process or hand-over to your
+                development-team. Slice solution into releases
+              </p>
+              <span>Requirement Engineering</span>
+              <span>Backlog Planning</span>
+              <span>Alignment with Stakeholders</span>
+            </article>
+          </div>
         </section>
 
         <section className={`${styles.section}`}>
           <h2>From Prototype to Product</h2>
-          <article>
-            <h3>Build</h3>
-            <p>
-              Bring Prototypes into Production, also possible as Consulting
-              Service for your Development Team
-            </p>
-            <span>Full-Stack Webdevelopment</span>
-            <span>Design Systems</span>
-            <span>Compliant (OZG, BfsG, 9241-110, A11y)</span>
-          </article>
-          <article>
-            <h3>Roll-Out</h3>
-            <p>Continuously deliver value to your user-segments</p>
-            <span>Localized Roll-Out Strategy</span>
-            <span>Performance Monitoring</span>
-            <span>Bugfixes</span>
-          </article>
-          <article>
-            <h3>Operate & Manage</h3>
-            <p></p>
-            <span></span>
-            <span></span>
-            <span></span>
-          </article>
+          <div className={`${styles.articleContainer}`}>
+            <article>
+              <h3>Build</h3>
+              <p>
+                Bring Prototypes into Production, also possible as Consulting
+                Service for your Development Team
+              </p>
+              <span>Full-Stack Webdevelopment</span>
+              <span>Design Systems</span>
+              <span>Compliant (OZG, BfsG, 9241-110, A11y)</span>
+            </article>
+            <article>
+              <h3>Roll-Out</h3>
+              <p>Continuously deliver value to your user-segments</p>
+              <span>Localized Roll-Out Strategy</span>
+              <span>Performance Monitoring</span>
+              <span>Bugfixes</span>
+            </article>
+            <article>
+              <h3>Operate & Manage</h3>
+              <p></p>
+              <span></span>
+              <span></span>
+              <span></span>
+            </article>
+          </div>
         </section>
 
         <section>

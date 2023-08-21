@@ -33,6 +33,15 @@
   align-items: left;
   padding: 60px 12%;
 }
+
+.main .articleContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: unset;
+  gap: 42px;
+  width: unset;
+  max-width: unset;
+}
 .main article {
   display: flex;
   flex-flow: row wrap;
