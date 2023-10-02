@@ -1,0 +1,43 @@
+## Challenge
+Are you the challenger or the challenged? 
+Wheter you want to create something from scratch or improve your current product,
+we enable you to better understand the market, users and competitors.
+
+# Understand what has to be done
+[Qualitative & Quantitative Research of your Digital Touchpoints, Market Potentials, Competitors & Customer Segments]
+
+# Ideate innovative solution approaches
+[Co-Create data driven innovative solutions]
+
+# Sustain Ideas in the organization
+[Translate ideas into Requirements & features]
+--------------------
+
+## Create
+What if ideas could be verified just as they are formed?
+Through validation of your solution-approaches in the market and with your stakeholders
+we supercharge the development process and make sure you're future solution is compliant {Link here to a BFSG / 9241-110 Special Page}
+
+# Prototype
+[interactive Prototypes to validate visions & value]
+
+# Test & Iterate
+[Scientific User- & Stakeholdetests make sure we *only* develop the right thing]
+
+# Ramp-up
+[Translate Prototypes into codeable artifacts]
+
+--------------------
+
+## Code
+Bring user-centered Concepts into reality through agile full-stack Web Development.
+
+# Build
+[Agile Development of validated concepts]
+
+
+# Launch
+[Roll-Out of your Product]
+
+# Maintain 
+[Continuous Monitoringand Improvement]

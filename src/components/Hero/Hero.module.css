@@ -1,0 +1,23 @@
+.HeroContainer {
+  width: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: left;
+  padding-left: var(--padding-left);
+}
+
+.HeroContainer h1 {
+  font-size: 10em;
+  color: white;
+}
+
+.HeroContainer h1::after {
+  content: ".";
+  font-size: 1em;
+  color: var(--color-highlight);
+}
+
+.HeroContainer h2 {
+  font-size: 2em;
+}
