@@ -25,7 +25,7 @@
   font-weight: bold;
 }
 
-.main section:not(.hero) {
+.main section {
   /*background: rgba(0, 0, 0, 0.08);*/
   display: flex;
   flex-flow: column wrap;

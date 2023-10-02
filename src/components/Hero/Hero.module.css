@@ -1,23 +1,52 @@
-.HeroContainer {
-  width: 100vh;
+.HeroSection {
+  position: relative;
+  width: 100vw;
+  height: 95vh;
+  background: var(--color-secondary);
+  overflow: hidden;
   display: flex;
-  flex-flow: column wrap;
   justify-content: center;
-  align-items: left;
-  padding-left: var(--padding-left);
+  align-items: center;
+  z-index: 1;
+}
+
+.HeroContainer {
+  position: absolute;
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  backdrop-filter: blur(6px);
 }
 
 .HeroContainer h1 {
   font-size: 10em;
   color: white;
+  margin: 0;
 }
 
 .HeroContainer h1::after {
   content: ".";
   font-size: 1em;
   color: var(--color-highlight);
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: 12px;
 }
 
 .HeroContainer h2 {
   font-size: 2em;
+  margin: 0;
+}
+
+.BlobCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 95vh;
+  overflow: hidden;
 }
