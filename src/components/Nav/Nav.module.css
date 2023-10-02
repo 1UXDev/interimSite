@@ -1,0 +1,12 @@
+.NavContainer {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(8px);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 12px var(--padding-left);
+  display: none;
+}

@@ -9,11 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-spring/web": "^9.7.3",
+    "@react-three/drei": "^9.83.9",
+    "@react-three/fiber": "^8.14.1",
+    "@types/three": "^0.156.0",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.16",
     "next": "13.4.16",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-spring": "^9.7.2"
+    "react-spring": "^9.7.2",
+    "styled-components": "^6.0.7",
+    "three": "^0.156.1"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
   }
 }
