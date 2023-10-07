@@ -1,0 +1,14 @@
+.ScrollContainer {
+  position: fixed;
+  z-index: 0;
+}
+
+.BlobCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 95vh;
+  overflow: hidden;
+  filter: blur(4px);
+}

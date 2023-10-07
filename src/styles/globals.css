@@ -19,6 +19,8 @@ body {
   overflow-x: hidden;
   background-color: var(--color-secondary);
   color: var(--color-primary);
+  scroll-snap-type: y mandatory; /* Enable scroll snap on the y-axis */
+  overflow-y: scroll; /* Enable vertical scrolling within the container */
 }
 
 h1 {

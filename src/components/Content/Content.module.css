@@ -1,20 +1,28 @@
-/* ContentSection */
-section.ContentSection {
-  padding: 0 var(--padding-left);
-}
-
-/* Stages */
-article.Stages {
+/* Set up the container for the articles */
+.ContentSection {
   display: flex;
-  flex-flow: column wrap;
-  gap: 50vh;
-  justify-content: space-around;
+  flex-direction: column;
+  padding: 0 var(--padding-left);
+  z-index: 2;
+  scroll-snap-type: y mandatory; /* Enable scroll snap on the y-axis */
+  overflow-y: scroll; /* Enable vertical scrolling within the container */
+  border: 1px solid white;
 }
 
-/* DesignLine */
-div.DesignLine {
+/* Style for the dividing line between articles */
+.DesignLine {
   height: 4px;
   background: var(--color-highlight);
   border-radius: 99px;
   margin-bottom: 8vh;
+}
+
+/* Style for each individual article */
+.ContentArticle {
+  display: flex;
+  scroll-padding: 20px;
+  margin-bottom: 8vh;
+  scroll-snap-align: start; /* Snap each article to the top of the container */
+  height: 90vh; /* Each article takes up 90vh */
+  border: 1px solid white;
 }

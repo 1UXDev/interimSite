@@ -2,6 +2,7 @@ import Head from "next/head";
 import Layout from "@/components/Layout/Layout";
 import Hero from "@/components/Hero/Hero";
 import Content from "@/components/Content/Content";
+import ScrollComponent from "@/components/ScrollComponent/ScrollComponent";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Layout>
         <Hero />
         <Content />
+        <ScrollComponent> </ScrollComponent>
       </Layout>
     </>
   );
