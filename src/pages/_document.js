@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta name="description" content="Translate your ideas into Products" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon3.svg" />
       </Head>
       <body>
         <Main />

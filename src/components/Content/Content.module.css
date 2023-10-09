@@ -1,28 +1,23 @@
 /* Set up the container for the articles */
 .ContentSection {
   display: flex;
-  flex-direction: column;
-  padding: 0 var(--padding-left);
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 48px var(--padding-left);
   z-index: 2;
-  scroll-snap-type: y mandatory; /* Enable scroll snap on the y-axis */
-  overflow-y: scroll; /* Enable vertical scrolling within the container */
+  min-height: 95vh;
   border: 1px solid white;
+  scroll-snap-align: start;
 }
 
-/* Style for the dividing line between articles */
-.DesignLine {
-  height: 4px;
-  background: var(--color-highlight);
-  border-radius: 99px;
-  margin-bottom: 8vh;
-}
-
-/* Style for each individual article */
-.ContentArticle {
+.ContentSection article {
   display: flex;
-  scroll-padding: 20px;
-  margin-bottom: 8vh;
-  scroll-snap-align: start; /* Snap each article to the top of the container */
-  height: 90vh; /* Each article takes up 90vh */
-  border: 1px solid white;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ContentSection h1 {
+  font-size: 3.5em;
+  margin-bottom: 24px;
 }

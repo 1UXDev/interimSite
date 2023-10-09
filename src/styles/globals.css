@@ -2,8 +2,8 @@
   --color-primary: #e6e1dc;
   --color-secondary: #191919;
   --color-highlight: #ff7850;
-  --font-headline: "jost";
-  --font-copytext: "jost", sans-serif;
+  --font-headline: "Times New Roman", Times, serif;
+  --font-copytext: "Roboto", sans-serif;
   --padding-left: 8%;
 }
 
@@ -21,6 +21,8 @@ body {
   color: var(--color-primary);
   scroll-snap-type: y mandatory; /* Enable scroll snap on the y-axis */
   overflow-y: scroll; /* Enable vertical scrolling within the container */
+  scroll-padding: 1px;
+  height: 100vh;
 }
 
 h1 {
@@ -31,6 +33,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  font-family: var(--font-copytext);
+  scroll-snap-align: start;
 }
 
 /* :root {
